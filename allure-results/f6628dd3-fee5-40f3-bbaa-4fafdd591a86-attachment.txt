@@ -1,0 +1,52 @@
+Error clicking on register button:  locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('button[type="submit"]')
+    - waiting for" https://parabank.parasoft.com/parabank/register.htm" navigation to finish...
+    - navigated to "https://parabank.parasoft.com/parabank/register.htm"
+
+    at RegistrationPage.clickOnRegisterButton (C:\Users\Mellifluous Mukhavar\Desktop\Banking-PwFramework\pages\RegistrationPage.ts:89:33)
+    at C:\Users\Mellifluous Mukhavar\Desktop\Banking-PwFramework\tests\RegistrationPage.spec.ts:48:28 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\Mellifluous Mukhavar\\Desktop\\Banking-PwFramework\\pages\\RegistrationPage.ts',
+      line: 89,
+      column: 33,
+      function: 'RegistrationPage.clickOnRegisterButton'
+    },
+    category: 'pw:api',
+    title: `Click locator('button[type="submit"]')`,
+    apiName: 'locator.click',
+    params: { selector: 'button[type="submit"]', strict: true, timeout: 0 },
+    group: undefined,
+    stepId: 'pw:api@49',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@49',
+      _title: `Click locator('button[type="submit"]')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1771868978802,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[type="submit"]')\x1B[22m\n` +
+        '\x1B[2m    - waiting for" https://parabank.parasoft.com/parabank/register.htm" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://parabank.parasoft.com/parabank/register.htm"\x1B[22m\n',
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('button[type="submit"]')\x1B[22m\n` +
+        '\x1B[2m    - waiting for" https://parabank.parasoft.com/parabank/register.htm" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://parabank.parasoft.com/parabank/register.htm"\x1B[22m\n' +
+        '\n' +
+        '    at RegistrationPage.clickOnRegisterButton (C:\\Users\\Mellifluous Mukhavar\\Desktop\\Banking-PwFramework\\pages\\RegistrationPage.ts:89:33)\n' +
+        '    at C:\\Users\\Mellifluous Mukhavar\\Desktop\\Banking-PwFramework\\tests\\RegistrationPage.spec.ts:48:28',
+      cause: undefined
+    }
+  }
+}
