@@ -23,8 +23,9 @@ export class OpenNewAccountPage{
         this.accStatusMessage = page.locator('div#openAccountResult .title');
     }
 
-    //methods to open accounts
+    //methods to open accounts and validate status
 
+    
     async selectAccountType(type: string){
         try{
             await this.accountType.selectOption(type.toUpperCase());
