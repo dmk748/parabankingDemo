@@ -23,7 +23,7 @@ export class OpenNewAccountPage{
         this.accStatusMessage = page.locator('div#openAccountResult .title');
     }
 
-    //methods to open accounts and validate status
+    //methods to open accounts and validate status on test one branch
 
     
     async selectAccountType(type: string){
